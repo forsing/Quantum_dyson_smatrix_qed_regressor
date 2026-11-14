@@ -17,9 +17,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -402,17 +402,17 @@ Posebnost: Interakciona slika V_I(t) + Dysonov red 2. stepena T*exp(-i int V_I) 
 CSV: loto7_4718_k90.csv
 Validacija NLL (g=0.45, omega=0.8): 20.6582
 Test NLL: 20.5892
-NEXT: [1, 8, 13, 21, 29, 33, 38]
+NEXT: [1, x, 13, y, 29, z, 38]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (g=0.2, omega=0.8): 20.6901
 Test NLL: 20.7206
-NEXT: [1, 8, 15, 21, 24, 35, 39]
+NEXT: [1, x, 15, y, 24, z, 39]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (g=0.45, omega=0.35): 20.3405
 Test NLL: 20.5332
-NEXT: [1, 8, 11, 23, 27, 32, 39]
+NEXT: [1, x, 11, y, 27, z, 39]
 """
 
 
